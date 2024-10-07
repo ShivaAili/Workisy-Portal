@@ -1,0 +1,188 @@
+/* Main Job Listing Container */
+.job-listing-container {
+  width: 60%;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  margin: 0 auto; /* Center the container */
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Job Header */
+.job-header {
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 20px;
+  position: sticky;
+  top: 0px;
+}
+
+.job-header h1 {
+  font-size: 26px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.job-header h2 {
+  font-size: 18px;
+  color: #555;
+  margin: 8px 0 5px;
+}
+
+.job-header p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #666;
+}
+.job-scrollbar {
+  max-height: 400px; /* Set the maximum height for the scrollable area */
+  overflow-y: auto; /* Enable vertical scrolling */
+  padding: 10px; /* Add padding to the scrollbar area */
+  border: 1px solid #e0e0e0; /* Border for better visibility */
+  border-radius: 10px; /* Rounded corners */
+}
+.job-scrollbar::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+.job-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Track color */
+  border-radius: 10px; /* Rounded corners for the track */
+}
+
+.job-scrollbar::-webkit-scrollbar-thumb {
+  background: #888; /* Scrollbar thumb color */
+  border-radius: 10px; /* Rounded corners for the thumb */
+}
+.apply-button {
+  background-color: #2557a7;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.apply-button:hover {
+  background-color: #1d4781;
+}
+
+/* Profile Insights Section */
+.profile-insights {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  border: 1px solid #f0f0f0;
+}
+
+.skills, .experience, .education, .languages {
+  margin-bottom: 15px;
+}
+
+.skills h4, .education h4, .languages h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.skills p, .experience p, .education p, .languages p {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.skills p svg, .experience p svg, .education p svg, .languages p svg {
+  margin-right: 10px;
+  color: #28a745;
+}
+
+.experience button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.experience button:hover {
+  background-color: #0056b3;
+}
+
+/* Job Details Section */
+.job-details {
+  padding: 20px;
+  border: 1px solid #f0f0f0;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+  margin-bottom: 20px;
+}
+
+.job-details p {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.job-details svg {
+  margin-right: 10px;
+}
+
+/* Benefits Section */
+.benefits {
+  padding: 20px;
+  border: 1px solid #f0f0f0;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+  margin-bottom: 20px;
+}
+
+.benefits ul {
+  padding-left: 20px;
+}
+
+.benefits li {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.benefits li svg {
+  margin-right: 10px;
+  color: #007bff;
+}
+
+/* Full Job Description Section */
+.full-job-description {
+  padding: 20px;
+  border: 1px solid #f0f0f0;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+}
+
+.full-job-description p, .full-job-description ul {
+  font-size: 14px;
+  color: #555;
+}
+
+.full-job-description ul {
+  padding-left: 20px;
+}
+
+.full-job-description li {
+  margin-bottom: 10px;
+}
+
